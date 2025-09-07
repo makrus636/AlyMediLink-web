@@ -13,7 +13,7 @@ const init = async () => {
         handler: () => { return { message: 'Hello, world!' }; },
     });
     await server.initialize();
-    return server.listener;
+    return server;
 
 }
 
@@ -21,7 +21,7 @@ let handler;
 module.exports.handler = async (event, context) => {
     if (!handler) {
         const server = await init();
-        handler = serverless(server);
+        handler = serverless(server.listener);
     }
     return handler(event, context);
 }
