@@ -9,7 +9,7 @@ const init = async () => {
 
     server.route({
         method: 'GET',
-        path: '/',
+        path: '/.netlify/functions/api',
         handler: () => { return { message: 'Hello, world!' }; },
     });
     await server.initialize();
