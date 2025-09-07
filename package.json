@@ -12,6 +12,7 @@
   "type": "commonjs",
   "dependencies": {
     "@hapi/hapi": "^21.4.3",
-    "hapi": "^18.1.0"
+    "hapi": "^18.1.0",
+    "serverless-http": "^4.0.0"
   }
 }
