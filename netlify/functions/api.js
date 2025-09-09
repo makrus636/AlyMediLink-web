@@ -7,11 +7,19 @@ const init = async () => {
         host: 'localhost',
     });
 
-    server.route({
+    server.route([{
         method: 'GET',
         path: '/.netlify/functions/api',
         handler: () => { return { message: 'Hello, world!' }; },
-    });
+    },
+    {
+        method: 'POST',
+        path: '/.netlify/functions/api',
+        handler: (request) => {
+            const payload = request.payload;
+            return { received: 'anda melakukan post' };
+        },
+    }]);
     await server.initialize();
     return server;
 
