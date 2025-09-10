@@ -19,7 +19,7 @@ class AppBar extends HTMLElement {
         :host {
             display: block;
             width: 100%;
-            background-color: #000000;
+            background-color: #ffffffff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             color: white;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -43,6 +43,7 @@ class AppBar extends HTMLElement {
         .logo span {
             margin-left: 5px;
             vertical-align: middle;
+            color: black;
         }
 
         .nav-links {
@@ -50,21 +51,21 @@ class AppBar extends HTMLElement {
             gap: 15px;
         }
         .nav-links a {
-            color: white;
+            color: black;
             text-decoration: none;
             font-size: 1rem;
             transition: color 0.3s;
             border-bottom: 2px solid transparent;
         }
         .nav-links a:hover {
-            color: #4d65ddff;
-            border-bottom: 2px solid #4d65ddff;
+            color: #000000ff;
+            border-bottom: 2px solid #000000ff;
             padding-bottom: 2px;
             cursor: pointer;
             cursor: hand;
         }
         .nav-links a:active {
-            color: #2a3ebdff;
+            color: #000000ff;
         }
 
       </style>
