@@ -24,12 +24,14 @@ class AppBar extends HTMLElement {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28);
             color: white;
             font-family: 'Exo 2', Tahoma, Geneva, Verdana, sans-serif;
+            position: fixed;
+            top: 0;
         }
         .container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 1rem 2rem;
+            padding: 1rem 4rem;
             
         }
         .logo {
@@ -50,6 +52,7 @@ class AppBar extends HTMLElement {
         .nav-links {
             display: flex;
             align-items: center;
+            
         }
 
         .nav-links ul {
@@ -94,6 +97,8 @@ class AppBar extends HTMLElement {
                 margin-top: 10px;
                 border-radius: 8px;
                 padding: 10px 0;
+                padding-bottom: 0px;
+                margin-bottom: 0px;
             }
 
             .nav-links ul {

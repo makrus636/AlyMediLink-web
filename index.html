@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    
     <title>AlyMediLink App</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,14 +25,67 @@
         <app-bar></app-bar>
     </header>
     <main>
-        <div class="herosection">
+        <div class="herosection" id="home">
             <h1>Improve your business efficiency with integrated IT solutions</h1>
             <p>We help your business as you optimize technology, reduce downtime, and protect data from cyber threats.</p>
             <button class="cta-button" id="cta-button">Free Consultation Now</button>
         </div>
+        <div class="content-section">
+            <div class="section-header">
+                <h1>Solve this IT problem</h1>
+                <ul>
+                    <li>
+                        <i class="ph ph-circle"></i>
+                        <div class="line">
+                            <h3>Slow Network and Frequent Downtime</h3>
+                            <p>Inhibits productivity and business operations</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ph ph-circle"></i>
+                        <div class="line">
+                            <h3>Worried about Hacker Attacks</h3>
+                            <p>Data and systems are vulnerable to security threats</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ph ph-circle"></i>
+                        <div class="line">
+                            <h3>Server Maintenance Costs Soar</h3>
+                            <p>IT investments are inefficient and difficult to predict</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="solution">
+                <h2>We have the solution...</h2>
+                <p>We provide comprehensive IT solutions to optimize your business operations, enhance security, and reduce costs. Our services include network optimization, cybersecurity measures, and cloud computing solutions tailored to your specific needs.</p>
+            </div>
+            
+        </div>
+        <div class="section-services" id="service">
+            <h2>superior service</h2>
+            <div class="card-container">
+                <div class="service-card">
+                    <i class="ph ph-shield-check fill"></i>
+                    <h3>Cybersecurity</h3>
+                    <p>Protect your business from cyber threats with our advanced security solutions.</p>
+                </div>
+                <div class="service-card">
+                    <i class="ph ph-cloud fill"></i>
+                    <h3>Cloud Solutions</h3>
+                    <p>Enhance collaboration and accessibility with our reliable cloud services.</p>
+                </div>
+                <div class="service-card">
+                    <i class="ph ph-broadcast fill"></i>
+                    <h3>Network Optimization</h3>
+                    <p>Improve your network performance and reduce downtime with our expert solutions.</p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        
+        <app-footer></app-footer>
     </footer>
 </body>
 
