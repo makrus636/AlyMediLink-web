@@ -81,14 +81,22 @@ class AppFooter extends HTMLElement {
         .socials a img:hover {
             filter: brightness(0) invert(0.7) sepia(1) saturate(5) hue-rotate(10);
         }
+        span {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: #aaaaaa;
+        }
+        
         @media (max-width: 768px) {
             .footer {
                 padding: 1rem 2rem;
             }
             .container {
                 flex-direction: column;
-                align-items: center;
-                text-align: center;
+                align-items: left;
+                text-align: left;
             }
             .footer-content {
                 margin: 10px 0;
@@ -127,6 +135,7 @@ class AppFooter extends HTMLElement {
                     </div>
                 </div>
             </div>
+            <span>&copy; 2024 AlyMediLink. All rights reserved.</span>
         </div>
         `;
 

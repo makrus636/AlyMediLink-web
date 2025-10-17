@@ -169,3 +169,45 @@ header {
     color: #666;
     line-height: 1.4;
 }
+
+.howwork {
+    padding: 30px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.howwork h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.howwork ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.howwork ul li {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.howwork ul li h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+.howwork ul li p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.4;
+}
+
+.howwork ul li i {
+    font-size: 2rem;
+    color: #5c70a4;
+}
