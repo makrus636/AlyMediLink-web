@@ -140,6 +140,7 @@ header {
 
 .section-services {
   padding: 30px;
+  padding-top: 100px;
   background-color: #ffffff;
   text-align: center;
 }
@@ -232,6 +233,7 @@ header {
 
 .about-section {
   padding: 60px 30px;
+  padding-top: 100px;
   background-color: #ffffff;
 }
 
@@ -297,6 +299,7 @@ header {
 
 .contact-section {
   padding: 60px 30px;
+  padding-top: 100px;
   background-color: #f0f0f0;
   text-align: center;
 }

@@ -56,21 +56,21 @@ export default function AppFooter() {
           <div className={styles.footerContent}>
             <h3>Follow Us</h3>
             <div className={styles.socials}>
-              <a href="#" aria-label="Instagram">
+              <a href="https://www.instagram.com/makrus.ali_a" aria-label="Instagram">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://img.icons8.com/ios-filled/50/000000/instagram-new--v1.png"
                   alt="Instagram"
                 />
               </a>
-              <a href="#" aria-label="GitHub">
+              <a href="https://github.com/makrus636" aria-label="GitHub">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://img.icons8.com/ios-filled/50/000000/github.png"
                   alt="GitHub"
                 />
               </a>
-              <a href="#" aria-label="YouTube">
+              <a href="https://www.youtube.com/@AlyMedilink" aria-label="YouTube">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://img.icons8.com/ios-filled/50/000000/youtube-play.png"
