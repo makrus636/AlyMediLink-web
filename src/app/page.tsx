@@ -1,6 +1,7 @@
 import AppBar from "@/components/AppBar";
 import AppFooter from "@/components/AppFooter";
 import ContactForm from "@/components/ContactForm";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -15,7 +16,9 @@ export default function Home() {
             We help your business as you optimize technology, reduce downtime,
             and protect data from cyber threats.
           </p>
-          <button className="cta-button">Free Consultation Now</button>
+          <Link href={"https://wa.me/6285738837735"}>
+            <button className="cta-button">Free Consultation Now</button>
+          </Link>
         </div>
 
         {/* Problem & Solution Section */}
